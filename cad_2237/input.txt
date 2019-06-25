@@ -1,0 +1,30 @@
+digraph g {
+	size = "8,5"
+	node [shape = box,
+	fillcolor="blue",
+	style="filled",
+	fontsize=10,
+	fontcolor="yellow",
+	forcelabels = "true",
+	headlabel = mygraph]
+
+
+	n0 -> n1[label= "1"]
+	n0 -> n2
+	n0 -> n3
+	n0 -> n4
+	n1 -> n6
+	n2 -> n6
+	n3 -> n5
+	n3 -> n6
+	n4 -> n5
+	n4 -> n7
+	n4 -> n9
+	n5 -> n6
+	n6 -> n7
+	n6 -> n8
+	n7 -> n8
+	n7 -> n9
+	n10 -> n9
+
+}
